@@ -10,22 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication9
 {
-    public partial class Form1 : Form
+    public partial class klient_firma : Form
     {
-        public Form1()
+        public klient_firma()
         {
             InitializeComponent();
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            klient form = new klient();
-            form.Show();
         }
     }
 }

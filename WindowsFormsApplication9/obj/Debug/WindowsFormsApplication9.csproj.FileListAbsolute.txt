@@ -6,3 +6,6 @@ c:\users\tomek\documents\visual studio 2015\Projects\WindowsFormsApplication9\Wi
 c:\users\tomek\documents\visual studio 2015\Projects\WindowsFormsApplication9\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csproj.GenerateResource.Cache
 c:\users\tomek\documents\visual studio 2015\Projects\WindowsFormsApplication9\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.exe
 c:\users\tomek\documents\visual studio 2015\Projects\WindowsFormsApplication9\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.pdb
+C:\Users\TOMEK\Documents\Visual Studio 2015\Projects\WindowsFormsApplication9\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.csprojResolveAssemblyReference.cache
+C:\Users\TOMEK\Documents\Visual Studio 2015\Projects\WindowsFormsApplication9\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.klient.resources
+C:\Users\TOMEK\Documents\Visual Studio 2015\Projects\WindowsFormsApplication9\WindowsFormsApplication9\obj\Debug\WindowsFormsApplication9.klient_firma.resources
