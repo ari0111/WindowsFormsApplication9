@@ -47,6 +47,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.txtKodPocztowy = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -80,7 +82,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 99);
+            this.label4.Location = new System.Drawing.Point(12, 125);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(31, 13);
             this.label4.TabIndex = 3;
@@ -89,7 +91,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 125);
+            this.label5.Location = new System.Drawing.Point(12, 151);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(51, 13);
             this.label5.TabIndex = 4;
@@ -98,7 +100,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 151);
+            this.label6.Location = new System.Drawing.Point(12, 177);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(43, 13);
             this.label6.TabIndex = 5;
@@ -127,28 +129,28 @@
             // 
             // txtUlica
             // 
-            this.txtUlica.Location = new System.Drawing.Point(85, 96);
+            this.txtUlica.Location = new System.Drawing.Point(85, 122);
             this.txtUlica.Name = "txtUlica";
             this.txtUlica.Size = new System.Drawing.Size(247, 20);
             this.txtUlica.TabIndex = 9;
             // 
             // txtNumer
             // 
-            this.txtNumer.Location = new System.Drawing.Point(85, 122);
+            this.txtNumer.Location = new System.Drawing.Point(85, 148);
             this.txtNumer.Name = "txtNumer";
             this.txtNumer.Size = new System.Drawing.Size(247, 20);
             this.txtNumer.TabIndex = 10;
             // 
             // txtTelefon
             // 
-            this.txtTelefon.Location = new System.Drawing.Point(85, 148);
+            this.txtTelefon.Location = new System.Drawing.Point(85, 174);
             this.txtTelefon.Name = "txtTelefon";
             this.txtTelefon.Size = new System.Drawing.Size(247, 20);
             this.txtTelefon.TabIndex = 11;
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(85, 174);
+            this.txtEmail.Location = new System.Drawing.Point(85, 200);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(247, 20);
             this.txtEmail.TabIndex = 13;
@@ -156,7 +158,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 177);
+            this.label7.Location = new System.Drawing.Point(12, 203);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(32, 13);
             this.label7.TabIndex = 12;
@@ -165,9 +167,9 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 205);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 246);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(547, 249);
+            this.dataGridView1.Size = new System.Drawing.Size(547, 208);
             this.dataGridView1.TabIndex = 14;
             // 
             // button1
@@ -206,11 +208,29 @@
             this.button4.Text = "Zakończ";
             this.button4.UseVisualStyleBackColor = true;
             // 
+            // txtKodPocztowy
+            // 
+            this.txtKodPocztowy.Location = new System.Drawing.Point(85, 96);
+            this.txtKodPocztowy.Name = "txtKodPocztowy";
+            this.txtKodPocztowy.Size = new System.Drawing.Size(247, 20);
+            this.txtKodPocztowy.TabIndex = 20;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(12, 99);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(75, 13);
+            this.label8.TabIndex = 19;
+            this.label8.Text = "Kod Pocztowy";
+            // 
             // klient_firma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(559, 466);
+            this.Controls.Add(this.txtKodPocztowy);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -259,5 +279,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox txtKodPocztowy;
+        private System.Windows.Forms.Label label8;
     }
 }
